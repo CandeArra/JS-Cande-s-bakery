@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cande's bakery</title> <!--titulo de la pagina--> 
-    <link rel="shortcut icon" href="assets/logo.png">  <!--favicon-->
+    <link rel="shortcut icon" href="assets/logo.jpg">  <!--favicon-->
     <!-- CSS only -->
+    <script src="https://kit.fontawesome.com/a81601b57d.js" crossorigin="anonymous"></script> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- <meta name="description" content="Fitness Club es un gimnasio donde vas a poder empezar de 0. No hay reglas. Todo depende de vos."> descripcion-->
@@ -22,13 +25,13 @@
             <!--nav-->
             <nav class="nav">
                     <div class="containerLogo" >
-                        <a  href="index.html"><img src="assets/logo.png" alt="logoGorro" class="imgLogo animate__animated animate__rotateIn animate__slow"></a> <!-- logo -->
+                        <a  href="index.html"><img src="assets/logo.jpg" alt="logoGorro" class="imgLogo animate__animated animate__rubberBand "></a> <!-- logo -->
                     </div>
                     <div class="containerTitle">
                         <h1 class="animate__animated animate__heartBeat " >Cande's Bakery</h1> <!-- titulo -->
                     </div>
                     <div class="containerCarrito">
-                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-cart4 imgCarrito  animate__animated animate__rubberBand" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-cart4 imgCarrito  animate__animated animate__rotateIn " viewBox="0 0 16 16">
                             <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
                         </svg>                    
                     </div>
@@ -46,13 +49,13 @@
                
                 <div class="containerOpciones">
                     <div>
-                        <a href="">CONOCÉNOS</a>
+                        <a href="#conocenos">CONOCÉNOS</a>
                     </div> 
                     <div>
                         <a href="#tiendaOnline">PEDI ONLINE</a>
                     </div>
                     <div>
-                        <a href="">LOCALES</a>
+                        <a href="#visitanos">VISÍTANOS</a>
                     </div>
                 </div>
 
@@ -88,7 +91,7 @@
                             <h2 class="">Te esperamos</h2>
                             <h3>Todos los días con los mejores productos</h3>
                             <div class="divBoton">
-                                <a href=""><button >Visítanos</button></a>
+                                <a href=""><button >Contactanos</button></a>
                             </div>
                         </div>
                 </div> 
@@ -174,25 +177,121 @@
                     <input type="submit" value="Agregar al carrito">
                 </div>         
             </section>
+
+            <!--termina el section-->
+        </main>
+        <!--termina el main-->
+
+        <article class="contenedorConocenos" id="conocenos">
+            
+           
+                <div >
+                    <h2>  Conócenos</h2>
+                    <div class="informaciones" data-aos="zoom-in">
+                        <p class="textosConocenos">
+                            LA PANERA ROSA, un nuevo concepto de restaurante non-stop.
+                            <br>
+                            <br>
+
+                            El primer local de La Panera Rosa, nace en Buenos Aires, en el año 2013 ofreciendo una variada carta con opciones dulces y saladas. Se destacó su propuesta original de pancackes, crepes, waffles y pastelería artesanal, sumando platos principales, ensaladas, sandwichs gourmet, entradas y picoteo. Ideas que en su base, fueron consecuencia de viajes por EEUU, Francia y Argentina, extrayendo lo mejor de cada lugar para crear un mix único y bien definido.
+                            <br>
+                            <br>
+
+                            La similitud entre la estética rosa de los locales y los dibujos animados de “La Pantera Rosa” fue algo premeditado.
+                            <br>
+                            <br>
+
+                            El creador de la marca buscaba en este nuevo concepto gastronómico un refugio culinario donde la experiencia recuerde a los sabores de la infancia, a la cocina de las madres y las abuelas, como el sabor y el olor del pan recién hecho. En su cabeza este recuerdo estaba asociado a las meriendas viendo los famosos dibujos animados.
+                        </p>
+
+                        <p class="textosConocenos">
+                            La búsqueda de un nombre relacionado con la panera, que refiriera al pan recién hecho, a los desayunos y meriendas que pretendía servir, hizo el resto. Así llegó a componer una oferta informal de lo más variada y extensa, para que el cliente pueda pedir cualquier cosa a cualquier hora del día, sin importar si se trata de pasta, carnes, ensaladas, sándwiches, platos principales o cualquier opción dulce.
+                            <br>
+                            <br>
+
+                            Nuestra propuesta gastronómica se basa en la utilización de materias primas de proveedores seleccionados, de primera calidad, con productos frescos y de elaboración en el día, sin aditivos ni conservantes.
+                            <br>
+                            <br>
+
+                            Los locales se caracterizan por su calidez y confort, con el color rosa como predominante y con cómodo mobiliario de maderas naturales y confección artesanal. Una mezcla de estilos perfectamente combinados que conforman un ambiente original, descontracturado y delicado; que invita a los comensales a disfrutar a pleno de un momento agradable en todos los sentidos.
+                        </p>
+                    </div>
+                </div>
+                
+        </article>
+
+        <section class="sectionVisitanos" id="visitanos" >                        
+            <h3 class="titulo__visitanos" >Visítanos</h3>
+                
+                <div id="divVisitanos">
+                    <div  class="contenedorVisitanos">
+                        <div class="contenedorVisitanosCard"  data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                            <h4>PALERMO</h4>
+                            <p>Jorge Luis Borges 1685
+                            </p>
+                            <p>4831-8395
+                            </p>
+                        </div>
+                        <div class="contenedorVisitanosCard"  data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">                    
+                            <h4>CENTRO</h4>
+                            <p>Corrientes 699
+                            </p>
+                            <p>3986 9858
+                            </p>
+                        </div>
+                        <div class="contenedorVisitanosCard"  data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">                    
+                            <h4>CABALLITO</h4>
+                            <p>Valle 902</p>
+                            <p>4722 8587
+        
+                            </p>
+                        </div>
+                        <div class="contenedorVisitanosCard"  data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">                    
+                            <h4>RECOLETA</h4>
+                            <p>Av. Quintana 595
+                            </p>
+                            <p>4806-5169
+                            </p>
+                        </div>
+                        <div class="contenedorVisitanosCard"  data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">                    
+                            <h4>CANNING</h4>
+                            <p>Mariano Castex 905
+                            </p>
+                            <p>5196-3741
+                            </p>
+                        </div>
+                        <div class="contenedorVisitanosCard"  data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">                    
+                            <h4>PUERTO MADERO</h4>
+                            <p>Pierina Dealessi 1360
+                            </p>
+                            <p>4517-8137
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+        </section>
+
+        <!--footer-->
+        <footer class="containerFooter">
                    
                 <!-- <h1>Tu mejor versión te espera</h1> 
                 <h2> ¡Veni a entrenar, no te vas a arrepentir!</h2>
 
                 <a href="paginas/contacto.html">
                     <button type="button" class="contenedor__section__boton ">CONTACTANOS</button>
-                </a>
+                </a> --> 
 
                 <div class="">
                     <a href="https://instagram.com" target= "_blank"><i class="fa-brands fa-instagram"></i></a>  
                     <a href="https://facebook.com" target= "_blank"><i class="fa-brands fa-facebook"></i></a>
-                </div> -->
-            <!--termina el section-->
-        </main>
-        <!--termina el main-->
-
-        <!--footer-->
-        <footer class="containerFooter">
-
+                </div>  
 
         </footer>
         <!-- termina el footer --> 
@@ -200,8 +299,15 @@
     <!-- termina el grid container--> 
 <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        AOS.init({
+            duration:1500
+        });
+      </script>
 
+      
 
 </body>
 </html>
